@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g id="签订合同" transform="translate(-968 -496)">
+    <g id="矩形_22" data-name="矩形 22" transform="translate(968 496)" fill="none" stroke="#00bbc4" stroke-width="2">
+      <rect width="140" height="140" rx="34" stroke="none"/>
+      <rect x="1" y="1" width="138" height="138" rx="33" fill="none"/>
+    </g>
+    <text id="签订合同-2" data-name="签订合同" transform="translate(1002 601)" font-size="18" font-family="PingFangSC-Light, PingFang SC" font-weight="300"><tspan x="0" y="0">签订合同</tspan></text>
+    <g id="contract2" transform="translate(992.2 501)">
+      <path id="路径_48" data-name="路径 48" d="M39.089,38.378a1.489,1.489,0,1,1,0-2.978H55.98a1.489,1.489,0,1,1,0,2.978Z" transform="translate(-6.228 -7.98)" fill="#454545"/>
+      <path id="路径_49" data-name="路径 49" d="M39.089,53.178a1.489,1.489,0,1,1,0-2.978H50.076a1.489,1.489,0,0,1,0,2.978Z" transform="translate(-6.228 -15.182)" fill="#454545"/>
+      <path id="路径_50" data-name="路径 50" d="M39.089,67.978a1.489,1.489,0,0,1,0-2.978h7.136a1.489,1.489,0,0,1,0,2.978Z" transform="translate(-6.228 -22.383)" fill="#454545"/>
+      <circle id="椭圆_11" data-name="椭圆 11" cx="5.288" cy="5.288" r="5.288" transform="translate(52.37 41.693)" fill="none" stroke="#454545" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="路径_51" data-name="路径 51" d="M89.218,95.93v5.493a1.185,1.185,0,0,1-1.181,1.129H72.43a1.14,1.14,0,0,1-1.13-1.129V95.93a1.14,1.14,0,0,1,1.13-1.13H88.089A1.107,1.107,0,0,1,89.218,95.93Z" transform="translate(-22.626 -36.883)" fill="none" stroke="#454545" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="路径_52" data-name="路径 52" d="M83.713,88.557H81.3c1.54-2,1.027-5.134,1.027-5.339a1.068,1.068,0,0,1,2.1-.359A11.108,11.108,0,0,1,83.713,88.557Z" transform="translate(-27.492 -30.64)" fill="#454545"/>
+      <path id="路径_53" data-name="路径 53" d="M93.1,88.605H90.739a10.285,10.285,0,0,1-.667-5.648,1.068,1.068,0,0,1,2.1.359C92.126,83.471,91.612,86.6,93.1,88.605Z" transform="translate(-31.695 -30.689)" fill="#454545"/>
+      <path id="路径_54" data-name="路径 54" d="M63.717,37.175a1.21,1.21,0,0,1-1.335-1.335v-11.3a2.915,2.915,0,0,0-2.875-2.926H30.293a2.882,2.882,0,0,0-2.875,2.926V61.1a2.96,2.96,0,0,0,2.875,2.978h13.3a1.341,1.341,0,0,1,1.284,1.284,1.38,1.38,0,0,1-1.284,1.284h-13.3A5.434,5.434,0,0,1,24.8,61.151V24.545A5.683,5.683,0,0,1,30.293,19H59.507A5.476,5.476,0,0,1,65,24.545v11.3C65,36.661,64.692,37.175,63.717,37.175Z" fill="#454545"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g id="产品验收" transform="translate(-1362 -496)">
+    <g id="矩形_24" data-name="矩形 24" transform="translate(1362 496)" fill="none" stroke="#00bbc4" stroke-width="2">
+      <rect width="140" height="140" rx="34" stroke="none"/>
+      <rect x="1" y="1" width="138" height="138" rx="33" fill="none"/>
+    </g>
+    <text id="产品验收-2" data-name="产品验收" transform="translate(1396 601)" font-size="18" font-family="PingFangSC-Light, PingFang SC" font-weight="300"><tspan x="0" y="0">产品验收</tspan></text>
+    <g id="dingdanwancheng" transform="translate(1345 410.1)">
+      <path id="路径_46" data-name="路径 46" d="M64,113.9v39.645h45.492V113.9Zm42.861,2.632v8.718H66.632v-8.718ZM66.632,150.918V127.877h40.234v23.041Z" transform="translate(0 0)" fill="#454545"/>
+      <path id="路径_47" data-name="路径 47" d="M184.1,242.887l-5.06-6.945-2.124,1.55,6.732,9.237L200.59,232.3l-1.707-2ZM171,218.2h3.445v3.445H171Zm5.568,0h3.445v3.445h-3.445Zm5.543,0h3.445v3.445h-3.445Z" transform="translate(-101.564 -99.001)" fill="#454545"/>
+    </g>
+  </g>
+</svg>

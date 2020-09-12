@@ -1,0 +1,55 @@
+$main-color: #00bbc4;
+$text-color: #5f6464;
+html,
+body {
+  color: $text-color;
+}
+html, body, div, span, iframe,
+i,b,
+h1, h2, h3, h4, h5, h6, p, a, 
+del, dfn, em, img,
+small, strong,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, section, summary {
+  margin: 0;
+  padding: 0;
+}
+// .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+//   font-weight: 600;
+// }
+p {
+  line-height: 1.7;
+}
+::selection {
+  color: #fff;
+  background-color: $main-color;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: $main-color;
+}
+a {
+  color: #5f6464;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: $main-color; /* #007bff; */
+}
+a.text-muted:hover {
+  color: #f1404b /* #007bff */ !important;
+}

@@ -1,0 +1,21 @@
+/*
+* 重置html标签中自带的“属性或效果”
+*/
+html, body, div, span, p,
+aside, section, header, nav
+img, i, em,
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+// 去除img标签自带的间隙
+img {
+  vertical-align: middle;
+}
+
+// 去除ios点击出现阴影
+*{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}

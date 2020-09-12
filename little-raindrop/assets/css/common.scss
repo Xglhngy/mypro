@@ -1,0 +1,135 @@
+$main-color: #00bbc4;
+$text-color: #5f6464;
+// 页面公共样式
+html, body {
+  font-family: sans-serif;
+  // color: #566464;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+body {
+  position: relative; // bootstarp滚动监听
+}
+.text-14px {
+  font-size: 14px;
+}
+.text-16px {
+  font-size: 16px;
+}
+.text-18px {
+  font-size: 18px;
+}
+.text-20px {
+  font-size: 20px;
+}
+.text-24px {
+  font-size: 24px;
+}
+.text-28px {
+  font-size: 28px;
+}
+.text-30px {
+  font-size: 30px;
+}
+.text-32px {
+  font-size: 32px;
+}
+.text-34px {
+  font-size: 34px;
+}
+.text-36px {
+  font-size: 36px;
+}
+.text-40px {
+  font-size: 40px;
+}
+
+// 常用字体颜色
+.color-primary {
+  color: $main-color;
+}
+.color-white { 
+  color: #fff !important;
+}
+
+.color-black { 
+  color: #000 !important;
+}
+
+// 常用背景颜色
+.bg-color-fbfbfb {
+  background-color: #fbfbfb;
+}
+.bg-color-f9f9f9 {
+  background-color: #f9f9f9;
+}
+
+// 常用间距
+.pt-60px {
+  padding-top: 60px;
+}
+.pb-60px {
+  padding-bottom: 60px;
+}
+.py-60px {
+  padding: 60px 0;
+}
+.pt-80px {
+  padding-top: 80px;
+}
+.pb-80px {
+  padding-bottom: 80px;
+}
+.py-80px {
+  padding: 80px 0;
+}
+
+// 页面描点包裹内容处理
+.anchor-content {
+  display: block;
+  cursor: default;
+  padding-top: 56px; // 锚点fixed定位，内容被遮盖临时解决方案（锚点的高度）
+  margin-top: -56px; // 锚点fixed定位，内容被遮盖临时解决方案（锚点的高度）
+}
+
+// 页面锚点的目录
+.anchor-catalog {
+  background-color: #fbfbfb;
+  &.fixed-anchor-bar {
+    position: fixed;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    // transition: top 0.2s linear;
+  }
+  a.anchor-title {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    color: #000;
+    font-size: 16px;
+    padding: 16px;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      // background: #4285f4;
+      transition: all 0.3s;
+    }
+    &.anchor-active {
+      color: #00bbc4;
+      &::after {
+        width: 100%;
+        left: 0;
+        right: 0;
+        border-bottom: 3px solid #00bbc4;
+      }
+    }
+  }
+}

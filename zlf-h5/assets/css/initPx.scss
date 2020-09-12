@@ -1,0 +1,21 @@
+/* 
+* 忽略postcss-px-to-viewport将px转成vw
+* 方法一：在此文件中生命
+* 方法二：类型前缀为.special-。eg .special-height，类型的px单位将会被忽略转化
+*/
+
+// 适配在pc打开，限制最大宽度750px
+.container-750px {
+  max-width: 750px;
+  margin: auto;
+}
+
+// 周六福珠宝保养手册pages/jewelry/maintain/index/vue，三个标题图片导航，pc打开时使用设计稿的宽高
+// .pc-jewelry-index-title-img_box {
+//   width: 414px;
+//   padding: 25px 0;
+// }
+// .pc-jewelry-index-catalog-content {
+//   height: 580px;
+//   padding: 101px 0;
+// }
